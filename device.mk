@@ -23,3 +23,7 @@ PRODUCT_PACKAGES += \
 	fstab.exynos9610 \
 	init.target.rc \
 	init.baseband.rc
+
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
